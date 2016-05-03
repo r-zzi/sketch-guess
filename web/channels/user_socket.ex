@@ -2,7 +2,7 @@ defmodule SketchGuess.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", SketchGuess.RoomChannel
+  channel "rooms:*", SketchGuess.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
