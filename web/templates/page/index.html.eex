@@ -1,3 +1,4 @@
 <div>
+    <a href="<%= @room_url %>">Go to a new room</a>
     <canvas id="canvas" width="500px" height="500px" style="border: solid black 1px; cursor: crosshair"></canvas>
 </div>
